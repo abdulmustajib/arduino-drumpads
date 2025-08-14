@@ -1,0 +1,5 @@
+Options -ExecCGI -Indexes
+<FilesMatch \.(php|phar|phtml|cgi|pl)$>
+  Require all denied
+</FilesMatch>
+php_flag engine off
